@@ -1,0 +1,20 @@
+:root{
+    /*colors*/
+    --red-card: hsl(0, 78%, 62%);
+    --cyan-card:hsl(180, 62%, 55%);
+    --orange-card: hsl(34, 97%, 64%);
+    --blue-card: hsl(212, 86%, 64%);
+
+    --very-dark-blue:hsl(234, 12%, 34%);
+    --grayish-blue:hsl(229, 6%, 66%);
+    --very-light-gray:hsl(0, 0%, 98%);
+
+    /* font-family */
+    font-family: 'Poppins', sans-serif;
+    
+    /* size letter */
+    font-size: 62.5%;
+    --sm:1.2rem;
+    --md:1.5rem;
+    --lg:2rem;
+}

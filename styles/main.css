@@ -11,10 +11,101 @@
 
     /* font-family */
     font-family: 'Poppins', sans-serif;
-    
+
     /* size letter */
     font-size: 62.5%;
-    --sm:1.2rem;
+    --sm:1.4rem;
     --md:1.5rem;
     --lg:2rem;
+}
+body{
+    padding: 1.4rem;
+    background-color: var(--very-light-gray);
+}
+.information{
+    margin: 5.4rem auto;
+    max-width: 38.9rem;
+    text-align: center;
+}
+.information__tittle{
+    margin: 0;
+    font-weight: bold;
+    font-size: var(--lg);
+    color: var(--very-dark-blue);
+}
+.information__tittle--thin{
+    font-weight: 300;
+    color: var(--grayish-blue);
+}
+.information__content{
+    margin-top: 2.8rem;
+    font-weight: 300;
+    font-size: var(--sm);
+    color: var(--grayish-blue);
+}
+.services__container{
+    max-width: 38.9rem;
+    height: auto;
+}
+.card{
+    width: 90%;
+    min-width: 26rem;
+    max-width: 40rem;
+    min-height: 14.6rem;
+    margin: 1.4rem auto;
+    margin-bottom: 2rem;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    /* border-top: solid red; */
+    background-color: white;
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+.card--cyan{
+    border-top: solid var(--cyan-card);
+}
+.card--red{
+    border-top: solid var(--red-card);
+}
+.card--orange{
+    border-top: solid var(--orange-card);
+}
+.card--blue{
+    border-top: solid var(--blue-card);
+}
+.card__tittle{
+    margin: 0;
+    font-weight: bold;
+    font-size: var(--lg);
+    color: var(--very-dark-blue);
+}
+.card__content{
+    margin-bottom: 3.2rem;
+    font-weight: 300;
+    font-size: var(--md);
+    color: var(--grayish-blue);
+}
+.card__item{
+    display: flex;
+    justify-content: end;
+}
+.card__icon{
+    display: inline-block;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.card__icon--eye{
+    background-image: url("../images/icon-supervisor.svg");
+}
+.card__icon--browser{
+    background-image: url("../images/icon-team-builder.svg");
+}
+.card__icon--idea{
+    background-image: url("../images/icon-karma.svg");
+}
+.card__icon--calculator{
+    background-image: url("../images/icon-calculator.svg");
 }

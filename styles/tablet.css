@@ -1,0 +1,10 @@
+.services__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 93rem;
+    margin: 0 auto;
+}  
+.card{
+    width: 70%;
+}
